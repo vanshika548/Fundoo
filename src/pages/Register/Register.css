@@ -1,0 +1,213 @@
+#root{
+    height: 100%;
+    width:100%;
+    overflow: hidden;
+  }
+  
+  .applogo {
+    display: flex;
+    font-size:1.5rem;
+    margin-left: 5%;
+    margin-top: 1rem;
+  
+  }
+  .applogo > p{
+   
+    line-height: 0px;
+    font-weight: 500;
+  
+  }
+  
+  .first{
+    color:#1a73e8;
+  }
+  .second{
+    color:red;
+  }
+  .third{
+    color:rgb(231, 201, 31);
+  }
+  .fourth{
+    color:#1a73e8;
+  
+  }
+  .fifth{
+    color: green;
+  }
+  .sixth{
+    color:orangered;
+  }
+  .account-logo{
+    width: 13vw;
+  }
+  
+  .AppDiv{
+  
+    height :100vh;
+    width:75vw;
+    display:flex;
+    align-self: center;
+    justify-content: center;
+    border-color: grey;
+  }
+  .body{
+    display: grid;
+    grid-template-rows: max-content;
+    align-self: center;
+    height:100vh;
+    width:51vw;
+    margin-left: 30%;
+  }
+  
+  .Main{
+    display:flex;
+    height: 60vh;
+    width: 35vw;
+    margin: auto;
+    justify-content: center;
+    border-radius: 20px;
+    margin-top: 7%;
+    padding: 30px;
+    border: lightgray 1px solid;
+  }
+  
+  .heading{
+    margin-left: 5%;
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+  
+  .subhead{
+    margin-left: 5%;
+    font-size:1rem;
+  }
+  
+  .left-sec{
+    display:flex;
+    flex-direction: column;
+    width: 72%;
+  }
+  
+  .right-sec{
+    margin:auto;
+    display: inline-block;
+   
+  }
+  
+  .name{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3%;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 18vw;
+    color: #000;
+  }
+  
+  .User-Name{
+    margin-left: 5%;
+    margin-top: 5%;
+  
+  }
+  .user{
+    width: 18vw;
+  }
+  
+  .credentials{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3%;
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 18vw;
+  }
+  
+  .checkbox{
+    margin-left: 5%;
+    margin-top: 1%;
+  }
+  
+  .bottom-text , .user-text{
+    font-size: 0.8rem;
+    color: gray;
+   
+  }
+  .bottom-text{
+    margin-left: 5%;
+  }
+  
+  .acclogo-text{
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 70px;
+    margin-left: 40px;
+  }
+  
+  .last-sec{
+    margin-top: 10%;
+    margin-left: 4%;
+    display: grid;
+    grid-gap:40%;
+    grid-template-columns: 1fr 1fr;
+  }
+  .user-text1{
+    color: #1a73e8;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  
+  .text{
+    font-size: 0.9rem;
+    margin-left: 16%;
+    cursor: pointer;
+    color:#1a73e8;
+    font-weight: bold;
+  }
+  
+  .Next-button{
+    height:4vh;
+    width:4vw;
+  }
+  
+  .footer{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:40%
+  }
+  
+  .right-foot > div{
+    font-size: 0.8rem;
+    color:grey;
+    word-spacing: 2.5rem;
+    cursor: pointer;
+  }
+
+  
+  @media only screen and (min-width: 360px) and (max-width: 800px) {
+    .Main{
+      border: none;
+      height: 100vh;
+      width: 100vw;
+      padding: 5px;
+      margin-top: 1%;
+    }
+    .right-sec{
+      display: none;
+    }
+    .name{
+      display: block;
+      width: 100vw;
+    }
+    .heading{
+      font-size: 1rem;
+    }
+    .user{
+      width: 62vw;
+    }
+    .credentials{
+      display: block;
+      width: 62vw;
+    }
+  }

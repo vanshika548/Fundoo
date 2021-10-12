@@ -1,0 +1,93 @@
+.fundooapplogo {
+    display: flex;
+    font-size:1.5rem;
+    margin-left: 5%;
+  }
+  .fundooapplogo > p{
+   
+    line-height: 0px;
+    font-weight: 500;
+  }
+  
+  .first{
+    color:#1a73e8;
+  }
+  .second{
+    color:red;
+  }
+  .third{
+    color:rgb(231, 201, 31);
+  }
+  .fourth{
+    color:#1a73e8;
+  
+  }
+  .fifth{
+    color: green;
+  }
+  .sixth{
+    color:orangered;
+  }
+  .container{
+    width:370px;
+    height:450px;
+    border:lightgrey 1px solid;
+    margin: auto;
+    padding: 30px;
+    margin-top: 200px;
+    }
+    a{
+     display: block;
+      color: #1a73e8;
+      margin-bottom: 20px;
+    }
+    
+    button{
+      color: #fff;
+      background: #1a73e8;
+      border: none;
+      padding-left: 25px;
+      padding-right: 25px;
+      padding-top: 5px;
+      padding-bottom: 10px;
+      border-radius: 5px
+    
+    }
+    .bold-label{
+      font-weight: bold;
+      font-size: 25px;
+      font-family: Roboto;
+      margin-bottom: 8px;
+    }
+    .middle{
+      display: block;
+    }
+    .middle label{
+      color:#777;
+      font-size: 15px;
+      margin-top: 20px;
+      
+    }
+  
+    .textfields a{
+      
+      margin-bottom: 1px;
+    }
+    
+    .bottom{
+      display: flex;
+      flex-direction: row;
+    }
+
+    .top-sec{
+      display: flex;
+      flex-direction: column;
+    }
+   .bold-label{
+      margin-left: 39%;
+    }
+    .inner-label{
+      margin-left: 28%;
+    }
+
+  
