@@ -1,0 +1,115 @@
+
+.note-testContainer {
+    border: 1px solid rgb(228, 225, 225);
+    display:block;
+    
+    border-radius: 8px;
+    height: 21vh;
+    width: 17vw;
+}
+
+.content > h4 {
+    font-size: 1.1rem;
+    margin-left: 1rem !important;
+}
+
+
+
+
+
+.note-paragraph {
+    margin-left: 1rem;
+    font-size: 0.875rem;
+    margin-bottom:1.5rem;
+}
+
+.dnotes-icons{
+    cursor: pointer;
+    width:120% !important;
+  
+    display: none;
+
+}
+
+
+
+.Note-mainContainer :hover .dnotes-icons
+{
+   display: block; 
+   color:#292a2b;
+}
+
+
+
+
+/* Dialog Box */
+
+/* dialog box */
+.MuiDialog-paperWidthSm {
+    width: 35vw !important;
+    height: 28vh !important;
+    border-radius: 15px !important;
+    overflow: hidden !important;
+}
+
+.input1 {
+    width: 50vw;
+    border: none;
+    font-size: 1.5rem;
+    margin: 2% 3% 2%;
+}
+
+.input2 {
+    outline: none;
+    position: relative !important;
+    border: none;
+    font-size: 1rem;
+    width: 30vw;
+    color:black !important;
+    text-align: left;
+    margin: 2% 3% 12%;
+}
+
+.dialog_icon {
+    position: relative;
+    left: -1.3rem;
+    cursor: pointer;
+}
+.dialog_icon > button{
+    margin-left:33rem !important;
+}
+
+
+
+/* media queries */
+
+@media only screen and (min-width: 768px) and (max-width:1024px) {
+    .MuiDialog-paperWidthSm {
+        width: 45vw !important;
+        height: 18vh !important;
+      
+    }
+    .dialog_icon > button{
+        margin-left:18rem !important;
+        margin-bottom: 0.2rem !important;
+
+    }
+   
+    .note-testContainer {
+        width: 32vw;
+        height: 15vh;
+    }
+    .content > h4 {
+        font-size: 0.95rem;
+        margin-left: 1rem !important;
+    }
+    
+}
+
+@media only screen and (min-width: 360px) and (max-width:640px) {
+  
+    .note-testContainer {
+        width: 100vw;
+        height: 18vh;
+    }
+}
